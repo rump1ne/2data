@@ -1,0 +1,7 @@
+#3. Программа, которая запрашивает у пользователя 10 чисел и выводит наименьшее из них:
+min_number = float('inf')
+for i in range(10):
+    number = float(input("Введите число: "))
+    if number < min_number:
+        min_number = number
+print("Наименьшее число: ", min_number)
